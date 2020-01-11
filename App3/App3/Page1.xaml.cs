@@ -17,9 +17,7 @@ namespace App3
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-
-        }
+        private void Button_Clicked(object sender, EventArgs e)        {
+            DisplayAlert("Hi", "Press ok", "ok");        }
     }
 }
